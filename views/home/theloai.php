@@ -15,7 +15,7 @@ $dSSach = $data['DSSach'];
                     <div class="col-xs-6 col-md-3 col-sm-3 ebook">
                         <a href="#" class="thumbnail">
                             <img src="<?php if ($sach->LINKANHBIA == NULL) {
-                                            echo "http://localhost:8080/projectstory/assets/images/biaSachNull.jpg";
+                                            echo "./assets/images/biaSachNull.jpg";
                                         } else {
                                             echo $sach->LINKANHBIA;
                                         }
