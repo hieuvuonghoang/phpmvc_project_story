@@ -1,32 +1,71 @@
-<DOCTYPE html>
-  <html lang="vi">
+<html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title><?= @$data['title'] ?></title>
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/projectstory/assets/stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:8080/projectstory/assets/stylesheets/site.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>404 - Không Tìm Thấy</title>
+  <style type="text/css">
+    ::selection {
+      background-color: #E13300;
+      color: white;
+    }
 
-  <body>
+    ::-moz-selection {
+      background-color: #E13300;
+      color: white;
+    }
 
-    <div class="page-wrap d-flex flex-row align-items-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-12 text-center">
-            <span class="display-1 d-block">404</span>
-            <div class="mb-4 lead">The page you are looking for was not found.</div>
-            <a href="http://localhost:8080/projectstory/" class="btn btn-link">Back to Home</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    body {
+      background-color: #fff;
+      margin: 40px;
+      font: 13px/20px normal Helvetica, Arial, sans-serif;
+      color: #4F5155;
+    }
 
-    <script src="http://localhost:8080/projectstory/assets/javascripts/jquery-1.10.2.min.js"></script>
-    <script src="http://localhost:8080/projectstory/assets/javascripts/bootstrap.min.js"></script>
+    a {
+      color: #003399;
+      background-color: transparent;
+      font-weight: normal;
+    }
 
-  </body>
+    h1 {
+      color: #444;
+      background-color: transparent;
+      border-bottom: 1px solid #D0D0D0;
+      font-size: 19px;
+      font-weight: normal;
+      margin: 0 0 14px 0;
+      padding: 14px 15px 10px 15px;
+    }
 
-  </html>
+    code {
+      font-family: Consolas, Monaco, Courier New, Courier, monospace;
+      font-size: 12px;
+      background-color: #f9f9f9;
+      border: 1px solid #D0D0D0;
+      color: #002166;
+      display: block;
+      margin: 14px 0 14px 0;
+      padding: 12px 10px 12px 10px;
+    }
+
+    #container {
+      margin: 10px;
+      border: 1px solid #D0D0D0;
+      box-shadow: 0 0 8px #D0D0D0;
+    }
+
+    p {
+      margin: 12px 15px 12px 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>404 - Không Tìm Thấy</h1>
+    <p>Nội dung này không tồn tại hoặc đã bị xoá, bạn vui lòng <a href="http://localhost:8080/phpmvc_project_story/"><b>bấm vào đây</b></a> để quay về trang chủ</p>
+  </div>
+
+</body>
+
+</html>

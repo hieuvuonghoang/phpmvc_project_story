@@ -21,6 +21,6 @@ $theLoais = $data['DSTheLoai'];
         ?>
     </ul>
     <p class="text-center" style="padding-top: 20px;">
-        <a class="btn btn-lg btn-success btn-home" href="https://sachvui.com/the-loai/tat-ca.html" role="button"> Tất Cả Sách</a>
+        <a class="btn btn-lg btn-success btn-home" href="http://localhost:8080/phpmvc_project_story/index.php?controller=home&action=theLoai" role="button"> Tất Cả Sách</a>
     </p>
 </div>
